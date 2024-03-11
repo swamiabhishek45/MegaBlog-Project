@@ -76,7 +76,7 @@ function Footer() {
                 </a>
               </div>
               <div class="w-auto p-1.5">
-                <a href="#">
+                <a href="https://twitter.com/swamiabhishek45">
                   <div class="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 bg-white hover:bg-purple-400 hover:border-gray-400">
                     <svg
                       width="14"
