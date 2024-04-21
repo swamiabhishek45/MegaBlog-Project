@@ -33,8 +33,8 @@ function App() {
           <Outlet />
         </main>
         <Footer />
-      </div>
       <Analytics />
+      </div>
     </div>
   ) : null;
 }
