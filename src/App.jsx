@@ -5,6 +5,7 @@ import authService from "./appwrite/auth";
 import { login, logout } from "./store/authSlice";
 import { Header, Footer } from "./components";
 import { Outlet } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 // import "./App.css";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </div>
   ) : null;
 }
